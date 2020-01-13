@@ -23,8 +23,7 @@ class LandmarksImagesDataSet(Dataset):
         i = 0
         datasetList = []
         for line in annotationsFile:
-            if(i>9999):
-                break
+            
             i=i+1
             annots = line.split()
             imageName = annots[0]
