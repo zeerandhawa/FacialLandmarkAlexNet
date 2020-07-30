@@ -97,9 +97,9 @@ valid_losses = []
 
 
 #File paths
-imagesDirectoryPath = "/home/mlyip/sfuhome/CMPT-742/Lab-Session-2/lfw"
-trainingAnnotationsFilePath = "/home/mlyip/sfuhome/CMPT-742/Lab-Session-2/LFW_annotation_train.txt"
-testingAnnotationsFilePath = "/home/mlyip/sfuhome/CMPT-742/Lab-Session-2/LFW_annotation_test.txt"
+imagesDirectoryPath = "/home/ion-2/lfw"
+trainingAnnotationsFilePath = "/home/ion-2/LFW_annotation_train.txt"
+testingAnnotationsFilePath = "/home/ion_test.txt"
 LandmarksImagesDataSet(imagesDirectoryPath, trainingAnnotationsFilePath)
 LandmarksImagesDataSet(imagesDirectoryPath, testingAnnotationsFilePath)
 
